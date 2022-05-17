@@ -1,0 +1,69 @@
+#main
+{
+	margin: 5% auto 0 auto;
+	width: 80%;
+	height: 90%;
+	border: 10px double black;
+	border-radius:5px;
+	background-image: black;
+	background-color: yellow;
+}
+#baner
+{
+	font-family: Tahoma;
+	color:#003333;
+	padding-top: 2%;
+	height:10%;
+	font-weight:900;
+	background-color: white;
+	text-align:center;
+	font-size: 30px;
+}
+#lewy
+{
+	height:87%;
+	width:30%;
+	float:left;
+	padding-top: 2%;
+}
+#prawy
+{
+	height:87%;
+	width:69%;
+	float:left;
+	border-left:1px #99cccc solid;
+	
+}
+img
+{
+	width:280px;
+	height:180px;
+	border-radius:5px;
+}
+table
+{
+	border-spacing:15px 20px;
+	margin: auto;
+	text-align: center;
+}
+p
+{
+	font-size: x-large;
+}
+li
+{
+	list-style-image: url("flaga2.png");
+	list-style-position:inside;
+	font-size:x-large;
+}
+.post img{
+-webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease;
+}
+.post img:hover {
+-o-transition: all 0.6s;
+-moz-transition: all 0.6s;
+-webkit-transition: all 0.6s;
+-moz-transform: scale(1.1);
+-o-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+}
